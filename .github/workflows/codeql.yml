@@ -19,7 +19,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '29 15 * * 4'
+    - cron: "*/1 * * * *" # Every 1 minute
 
 jobs:
   analyze:
